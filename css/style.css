@@ -1,0 +1,357 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*RESET END*/
+
+body {
+    font-family: 'Sintony', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.wrapper-logo {
+    background-color: #a4d35a;
+    width: 25%;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 22px;
+}
+
+.wrapper-nav {
+    width: 75%;
+}
+
+.bg-nav {
+    background-color: #272828!important;
+}
+
+.main-header {
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-collapse {
+    flex-grow: 0.7;
+}
+
+.navbar-expand-lg {
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 60px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 50px;
+}
+
+.navbar {
+    padding: 25px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #a4d35a;
+    outline: none;
+    color: #a4d35a;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(164, 211, 90, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+    fill: #a4d35a;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background: none;
+}
+
+.carousel-top li, .carousel-center li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-top {
+    justify-content: flex-start;
+    margin-left: 15%;
+    bottom: 50px;
+}
+
+.carousel-indicators li {
+    margin-left: 10px;
+}
+
+.indicators-shoes {
+    padding-bottom: 60px;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .2);
+}
+
+.list-news {
+    display: flex;
+}
+
+.list-news li {
+    width: 400px;
+    margin-right: 50px;
+}
+
+.title-news h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #ffff;
+}
+
+.title-news p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.wrapper-information {
+    padding: 100px 0 100px;
+    background-color: black;
+}
+
+.circle-slider {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.carousel-center {
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.circle-assortment-shoes {
+    display:inline-block;
+    width:600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #a4d35a;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-assortment {
+    text-align: center;
+}
+
+.shoes-sneaker {
+    position: absolute;
+    left: 48px;
+    top: 84px;
+    z-index: 1;
+}
+
+.wrapper-assortment {
+    background-color: #353535;
+}
+
+.indicators-shoes li {
+    width: 100px;
+}
+
+.slogan-of-site p {
+    color: grey;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.slogan-of-site h2 {
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-shoes {
+    padding: 100px 0 150px 40px;
+}
+
+.download-devices {
+    background-color: #a4d35a;
+}
+
+.wrapper-download-devices {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 40px;
+    padding-top: 100px;
+}
+
+.info-download h2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.info-download p {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.img-device {
+    width: 450px;
+    height: 550px;
+}
+
+.info-download {
+    width: 400px;;
+}
+
+.btn-join {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #a4d35a;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer-nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 100px 40px;
+}
+
+.web-design-nav {
+    display: flex;
+}
+
+.designers-nav {
+    display: flex;
+}
+
+.web-design-nav h3, .designers-nav h3 {
+    color: #909090;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.list-nav-footer a {
+    font-size: 15px;
+    color: #909090;
+    line-height:35px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-footer .main-container{
+    padding: 50px 0 100px;
+}
+
+.web-design-nav div:first-child {
+    margin-right: 50px;
+}
+
+.designers-nav div:first-child {
+    margin-right: 50px;
+}
+
+.img-logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 7px solid #a4d35a;
+    border-radius: 50%;
+}
+
+.law-info {
+    text-align: center;
+}
+
+.law-info p {
+    color: #909090;
+    font-size: 15px;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
