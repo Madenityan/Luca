@@ -128,12 +128,10 @@ body {
     bottom: 50px;
 }
 
-.carousel-indicators li {
-    margin-left: 10px;
-}
-
 .indicators-shoes {
     padding-bottom: 95px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .main-container {
@@ -206,8 +204,6 @@ body {
     bottom: 130px;
 }
 
-
-
 .shoes-sneaker {
     position: absolute;
     left: 35px;
@@ -220,7 +216,7 @@ body {
 }
 
 .indicators-shoes li {
-    width: 100px;
+    width: 272px;
 }
 
 .slogan-of-site p {
@@ -366,11 +362,22 @@ body {
     color: #b9bdc2;
     font-size: 12px;
     margin-top: 35px;
-
 }
 
 .indicators-shoes .active {
     background-color: #a4d35a;
+}
+
+.indicators-text p {
+    color: #fff;
+    content: 'text';
+    text-indent: 0;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.indicators-shoes .active p{
+    color: #a4d35a;
 }
 
         /*Media Queries*/
@@ -429,6 +436,14 @@ body {
     .circle-assortment-shoes {
         width: 250px;
         height: 250px;
+    }
+
+    .indicators-shoes li {
+        width: 55px;
+    }
+
+    .indicators-text p {
+       display: none;
     }
 
     .slogan-of-site {
@@ -522,6 +537,14 @@ body {
 
     .carousel-shoes {
         padding: 40px 20px 100px;
+    }
+
+    .list-news li {
+        width: 200px;
+    }
+
+    .indicators-text p {
+       font-size: 15px;
     }
 
     .slogan-of-site {
