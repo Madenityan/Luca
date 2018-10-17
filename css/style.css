@@ -240,6 +240,16 @@ body {
     padding: 100px 0 200px 50px;
 }
 
+
+.carousel-control-prev {
+    left: -25px;
+}
+
+.carousel-control-next {
+    right: -2px;
+}
+
+
 .download-devices {
     background-color: #a4d35a;
 }
@@ -359,9 +369,249 @@ body {
 
 }
 
+.indicators-shoes .active {
+    background-color: #a4d35a;
+}
+
+        /*Media Queries*/
+
+@media screen and (max-width: 576px) {
+
+    .wrapper-logo {
+        width: 35%;
+        padding-left: 10px;
+    }
+
+    .carousel-top {
+        margin-left: 3%;
+        bottom: 15px;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .wrapper-information .main-container {
+        padding: 30px 20px 30px;
+    }
+
+    .list-news {
+        display: block;
+    }
+
+    .list-news li {
+        width: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .list-news li:last-child {
+        margin-bottom: 0;
+    }
+
+    .main-container {
+        width: 320px;
+    }
+
+    .footer-nav {
+        display: block;
+    }
+
+    .carousel-center {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .carousel-shoes {
+        padding: 30px 20px 50px;
+    }
+
+    .circle-assortment-shoes {
+        width: 250px;
+        height: 250px;
+    }
+
+    .slogan-of-site {
+        margin-bottom: 50px;
+    }
+
+    .indicators-shoes {
+        padding-bottom: 15px;
+    }
+
+    .carousel-control-next {
+        right: -7px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        bottom: -51px;
+    }
+
+    .carousel-control-prev {
+        left: -7px;
+    }
+
+    .shoes-sneaker {
+        left: 17px;
+        top: 155px;
+        width: 251px;
+    }
+
+    .download-devices .main-container {
+        max-height: 870px;
+    }
+
+    .wrapper-download-devices {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .info-download {
+        width: 100%;
+    }
+
+    .btn-join {
+        margin-bottom: 20px;
+    }
+
+    .img-device {
+        width: 260px;
+        height: 350px;
+    }
+
+    .main-footer .main-container {
+        padding: 30px 0 40px;
+    }
+
+    .web-design-nav {
+        margin-bottom: 30px;
+    }
+
+    .web-design-nav h3 {
+        line-height: 20px;
+    }
+}
 
 
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .main-container {
+        width: 550px;
+    }
 
+    .wrapper-logo {
+        width: 30%;
+    }
+
+    .wrapper-logo {
+        padding-top: 30px;
+    }
+
+    .carousel-top {
+        margin-left: 9%;
+        bottom: 25px;
+    }
+
+    .wrapper-information .main-container {
+        padding: 40px 20px 40px;
+    }
+
+    .carousel-center {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .carousel-shoes {
+        padding: 40px 20px 100px;
+    }
+
+    .slogan-of-site {
+        margin-bottom: 50px;
+    }
+
+    .indicators-shoes {
+        padding-bottom: 35px;
+    }
+
+    .carousel-control-next {
+        right: -40px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        bottom: -51px;
+    }
+
+    .carousel-control-prev {
+        left: -40px;
+    }
+
+    .circle-assortment-shoes {
+        width:500px;
+        height: 500px;
+    }
+
+    .shoes-sneaker {
+        left: -4px;
+        top: 170px;
+        width: 515px;
+    }
+
+    .wrapper-download-devices {
+        padding-top: 40px;
+        display: block;
+    }
+
+    .info-download {
+        width: 100%;
+    }
+
+    .btn-join {
+        margin-bottom: 30px;
+    }
+
+    .download-devices .main-container {
+        max-height: 765px;
+    }
+
+    .main-footer .main-container {
+        padding: 40px 0 60px;
+    }
+
+    .footer-nav {
+        margin: 0 20px 50px 40px;
+    }
+
+    .main-footer .main-container {
+        padding: 30px 0 40px;
+    }
+
+    .web-design-nav, .designers-nav{
+        display: block;
+    }
+
+    .web-design-nav h3 {
+        line-height: 20px;
+    }
+
+    .web-design-nav div {
+        margin-bottom: 30px;
+    }
+
+    .designers-nav div {
+        margin-bottom: 30px;
+
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .main-container{
+        width: 950px;
+    }
+
+    .shoes-sneaker {
+        width: 765px;
+    }
+}
 
 
 
